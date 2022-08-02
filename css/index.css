@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+body {
+    background: url("/images/backcover.svg");
+    background-position: top right;
+    background-repeat: no-repeat;
+    font-family: 'Lato';
+}
+
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+img[alt=logo] {
+    height: 40px;
+}
+
+.nav-items {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 50px;
+}
+
+.nav-item {
+    font-size: 16px;
+    color: #3E4794;
+    font-weight: 500;
+}
+
+.signin-btn {
+    padding: 3px 15px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    background: #965cf2;
+    background: linear-gradient(90deg, #965cf2 7%, #ff8adc 95%);
+}
+
+.intro-section {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.left-section {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 40%;
+}
+
+/* .learn-more-btn {
+
+} */
+
+.imgs-div {
+    display: flex;
+    flex-flow: column wrap;
+    width: 60%;
+}
